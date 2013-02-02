@@ -9,13 +9,14 @@ global.should = global.chai.should();
  * Chai Plugins
  */
 
-//global.chai.use(require('chai-spies'));
-//global.chai.use(require('chai-http'));
+global.chai.use(require('chai-spies'));
+global.chai.use(require('chai-http'));
 
 /*!
  * Import project
  */
 
+global.hyperion = require('hyperion');
 global.permissions = require('../..');
 
 /*!
