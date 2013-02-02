@@ -18,10 +18,15 @@
       "test": "make test"
     }
   , "dependencies": {
+        "tea-extend": "0.2.0"
+      , "tea-type": "0.1.0"
     }
   , "devDependencies": {
         "chai": "*"
+      , "chai-http": "*"
+      , "chai-spies": "*"
       , "component": "*"
+      , "hyperion": "*"
       , "mocha": "*"
       , "mocha-phantomjs": "*"
     }
