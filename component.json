@@ -1,7 +1,7 @@
 {
     "name": "hyperion-mixin-permissions"
   , "repo": "qualiancy/hyperion-mixin-permissions"
-  , "version": "0.0.0"
+  , "version": "0.1.0"
   , "description": "Multifaceted permission management mixin for Hyperion applications."
   , "license": "MIT"
   , "keywords": [
